@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "courier new",courier, monospace;
+}
+
+
+
+
+body{ 
+  background:white
+}
+ 
+
+h2{
+  text-align: center;color:black;
+}
+
+
+
+/* HEADER - CABEÇALHO*/
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items:center; 
+  padding: 10px;
+}
+#logo{
+  width:200px;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+/*IMAGENS DO SITE*/
+
+.menu > ul > li > a:link{
+  text-decoration: none;
+  color:black;
+  padding: 10px;  
+}
+
+.menu > ul > li > a:hover{
+  border-bottom: 2px solid green;
+}
+
+
+.menu > ul > li > a:active{
+  color: black;
+  border-bottom: 2px solid green;
+  font-weight: 700px;
+}
+
+#ativo{
+  border-bottom: 2px solid green;
+}
+
+/*seções*/
+#banner-principal{
+  width: 100%;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color:white;
+}
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  align-items: center;
+  max-width: 20%;
+}
+.banner{
+  width:250px;
+  height:250px;
+  margin-bottom: 20px;
+  border-radius:40%;
+}
+#video{
+    background-color:rgb(165, 214, 66);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height:500px;
+    border: 30x solid orange;
+}
+#video > .container> img{
+  height: 315px;
+}
+footer{
+  text-align: center;
+  padding: 20 px;
+}
+footer > p > a{
+  text-decoration: none;
+  color:#000000;
+}
